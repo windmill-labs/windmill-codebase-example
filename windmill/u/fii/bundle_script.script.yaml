@@ -1,12 +1,6 @@
 summary: ''
 description: ''
-lock: |-
-  {
-    "dependencies": {}
-  }
-  //bun.lockb
-  <empty>
-dedicated_worker: false
+lock: ''
 kind: script
 schema:
   $schema: 'https://json-schema.org/draft/2020-12/schema'
@@ -16,5 +10,11 @@ schema:
       type: string
       description: ''
       default: null
+      originalType: string
+    'y':
+      type: number
+      description: ''
+      default: null
   required:
     - x
+    - 'y'
