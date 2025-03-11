@@ -1,8 +1,12 @@
 defaultTs: bun
-includes: []
+includes: ['u/fii/*']
 excludes: []
 codebases:
   - relative_path: ../src
     includes: 
       - '**'
     excludes: []
+    inject: ["./t.js"]
+    assets:
+      - from: './libquery_engine-debian-openssl-3.0.x.so.node'
+        to: './node_modules/.pnpm/@prisma+client@5.15.0_prisma@5.15.0/node_modules/.prisma/client/libquery_engine-debian-openssl-3.0.x.so.node'
