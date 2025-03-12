@@ -15,7 +15,7 @@ function listFilesSync(dirPath: string): string[] {
     const files = fs.readdirSync(dirPath);
     return files.map((file) => path.join(dirPath, file));
   } catch (error) {
-    console.error(`Error reading directory: ${error}`);
+    console.error(`Error reading directorry: ${error}`);
     return [];
   }
 }
