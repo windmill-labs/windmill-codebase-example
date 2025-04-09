@@ -1,7 +1,8 @@
-// import { test } from "../../../src/index.ts";
+import { test } from "../../../src/index.ts";
 
 export async function main(x: string, y: number) {
-  // test(x);
+  test(x);
+
   console.log("BARR");
   console.log(listFilesSync("./"));
 }
