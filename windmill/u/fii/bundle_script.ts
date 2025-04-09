@@ -2,7 +2,7 @@
 
 export async function main(x: string, y: number) {
   // test(x);
-  console.log("BAR");
+  console.log("BARR");
   console.log(listFilesSync("./"));
 }
 
