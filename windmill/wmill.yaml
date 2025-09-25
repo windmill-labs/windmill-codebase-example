@@ -6,3 +6,7 @@ codebases:
     includes: 
       - '**'
     excludes: []
+    assets: 
+      - from: "../node_modules/cowsay/cows/default.cow"
+        to: "./cows/default.cow" 
+    format: "esm"
